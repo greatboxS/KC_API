@@ -1,0 +1,81 @@
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe.config
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\MachineTracking.pdb
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csprojAssemblyReference.cache
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Properties.Resources.resources
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.GenerateResource.cache
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.exe
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.pdb
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EntityFramework.dll
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.dll
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EPPlus.dll
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.dll
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EntityFramework.xml
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.xml
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\EPPlus.xml
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.xml
+E:\EKANBAN_SYS\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.CopyComplete
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe.config
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\MachineTracking.pdb
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EntityFramework.dll
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EPPlus.dll
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EntityFramework.xml
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\EPPlus.xml
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csprojAssemblyReference.cache
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Properties.Resources.resources
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.GenerateResource.cache
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.CopyComplete
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.exe
+C:\Users\kha.le\OneDrive\MachineTracking\MachineTracking\obj\Debug\MachineTracking.pdb
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe.config
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\MachineTracking.pdb
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EntityFramework.dll
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EPPlus.dll
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.dll
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EntityFramework.xml
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\EPPlus.xml
+E:\Visual 19\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.xml
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Properties.Resources.resources
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.GenerateResource.cache
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.CopyComplete
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.exe
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.pdb
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.TrackingForm.resources
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentEditor.resources
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentProperties.resources
+E:\Visual 19\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csprojAssemblyReference.cache
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe.config
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\MachineTracking.exe
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\MachineTracking.pdb
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EF_CONFIG.dll
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EntityFramework.dll
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.dll
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EPPlus.dll
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.dll
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EF_CONFIG.pdb
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EF_CONFIG.dll.config
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EntityFramework.xml
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EntityFramework.SqlServer.xml
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\EPPlus.xml
+E:\KC_API\MachineTracking\MachineTracking\bin\Debug\Newtonsoft.Json.xml
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csprojAssemblyReference.cache
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Properties.Resources.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.TrackingForm.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentEditor.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentProperties.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KC_MachineDetail.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KnifeCpatureDevice.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.GenerateResource.cache
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.CopyComplete
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.exe
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.pdb
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KC_MachineViewer.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.MachineDetailForm.resources
