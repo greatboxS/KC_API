@@ -3,11 +3,11 @@ E:\KC_API\EF_CONFIG\bin\Debug\EF_CONFIG.dll
 E:\KC_API\EF_CONFIG\bin\Debug\EF_CONFIG.pdb
 E:\KC_API\EF_CONFIG\bin\Debug\EntityFramework.dll
 E:\KC_API\EF_CONFIG\bin\Debug\EntityFramework.SqlServer.dll
+E:\KC_API\EF_CONFIG\bin\Debug\EPPlus.dll
 E:\KC_API\EF_CONFIG\bin\Debug\EntityFramework.xml
 E:\KC_API\EF_CONFIG\bin\Debug\EntityFramework.SqlServer.xml
+E:\KC_API\EF_CONFIG\bin\Debug\EPPlus.xml
 E:\KC_API\EF_CONFIG\obj\Debug\EF_CONFIG.csproj.CopyComplete
 E:\KC_API\EF_CONFIG\obj\Debug\EF_CONFIG.dll
 E:\KC_API\EF_CONFIG\obj\Debug\EF_CONFIG.pdb
-E:\KC_API\EF_CONFIG\bin\Debug\EPPlus.dll
-E:\KC_API\EF_CONFIG\bin\Debug\EPPlus.xml
 E:\KC_API\EF_CONFIG\obj\Debug\EF_CONFIG.csprojAssemblyReference.cache

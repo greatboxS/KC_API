@@ -45,21 +45,45 @@ namespace MachineTracking.Views
 
         private void ExportToExcel_Callback(object sender, EventArgs e)
         {
+        }
+
+        void ExportData()
+        {
             string Path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             //Path = @"\\svproxy\Department\CP\CP Member\Thuong";
-
-            if (KC_Device != null)
+            string FilePath = string.Empty;
+            try
             {
-                string FilePath = KnifeCaptureExport.ExportToExcel_KC_Device(KC_Device, Path);
-                if (FilePath != null)
+                if (ExportCurrentWeek.Checked)
                 {
-                    try
+                    if (KC_Device != null)
                     {
-                        System.Diagnostics.Process.Start(FilePath);
+                        FilePath = KnifeCaptureExport.ExportToExcel_KC_Device(KC_Device, Path, DateTime.Now);
+                        if (FilePath != null)
+                        {
+                            try
+                            {
+                                System.Diagnostics.Process.Start(FilePath);
+                            }
+                            catch { }
+                        }
                     }
-                    catch { }
+                }
+
+                else
+                {
+                    FilePath = KnifeCaptureExport.ExportToExcel_KC_Device(KC_Device, Path, dateTimePicker1.Value);
+                    if (FilePath != null)
+                    {
+                        try
+                        {
+                            System.Diagnostics.Process.Start(FilePath);
+                        }
+                        catch { }
+                    }
                 }
             }
+            catch { }
         }
 
         private void UpdateDeviceScreen()
@@ -69,17 +93,8 @@ namespace MachineTracking.Views
             DeviceName.Text = KC_Device.DeviceName;
 
             // get all post file on date
-            var records = KC_ImplementBase.Get_KC_PostRecord(KC_Device, DateTime.Now);
+            var last_record = KC_ImplementBase.Get_KC_LastPostRecord(KC_Device);
 
-            if (records == null)
-            {
-                records = KC_ImplementBase.Get_KC_PostRecord(KC_Device);
-                if (records == null)
-                    return;
-            }
-
-            // get last post file
-            var last_record = records.OrderByDescending(i => i.Id).FirstOrDefault();
             if (last_record == null) return;
 
             var machines = KC_ImplementBase.Get_KC_DisMachines(last_record);
@@ -117,6 +132,11 @@ namespace MachineTracking.Views
             UpdateTimer.Stop();
             UpdateDeviceScreen();
             UpdateTimer.Start();
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            ExportData();
         }
     }
 }

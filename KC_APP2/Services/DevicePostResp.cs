@@ -12,6 +12,11 @@ namespace KC_APP2.Services
     {
         private DataContext DataContext;
         private KC_ImplementBase IKC_ImplementBase;
+
+        public DevicePostResp()
+        {
+
+        }
         public DevicePostResp(DataContext DataContext, LocalPostData LocalPostData)
         {
             Deviceid = LocalPostData.KC_DeviceId;

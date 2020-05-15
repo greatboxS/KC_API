@@ -22,9 +22,22 @@ namespace EF_CONFIG.Models
         public DateTime DateTime { get; set; } = DateTime.Now;
         public string DateTimeStr { get; set; } = DateTime.Now.ToString("HH:mm:ss, dd/MM/yyyy");
 
-
+        public virtual List<KC_MachineInitialize> KC_MachineInitializes { get; set; }
         public virtual KC_PostRecord KC_PostRecord { get; set; }
         public virtual KC_Device KC_Device { get; set; }
+        public virtual AutoCutMachine AutoCutMachine { get; set; }
+    }
+
+    public class KC_MachineInitialize
+    {
+        [Key]
+        public int Id { get; set; }
+        public int? AutoCutMachineId { get; set; }
+        public string MachineName { get; set; }
+        public string DeviceName { get; set; }
+        public bool? ResetCounter { get; set; }
+        public DateTime UpdateTime { get; set; } = DateTime.Now;
+
         public virtual AutoCutMachine AutoCutMachine { get; set; }
     }
 }

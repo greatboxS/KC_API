@@ -63,6 +63,7 @@ E:\ServerDeploy\www_KnifeCaptureAPI\KnifeCaptureAPI\KC_API\KC_APP2\obj\Debug\KC_
 E:\ServerDeploy\www_KnifeCaptureAPI\KnifeCaptureAPI\KC_API\KC_APP2\obj\Debug\KC_APP2.csproj.CopyComplete
 E:\ServerDeploy\www_KnifeCaptureAPI\KnifeCaptureAPI\KC_API\KC_APP2\obj\Debug\KC_APP2.dll
 E:\ServerDeploy\www_KnifeCaptureAPI\KnifeCaptureAPI\KC_API\KC_APP2\obj\Debug\KC_APP2.pdb
+E:\KC_API\KC_APP2\bin\EntityFramework.xml
 E:\KC_API\KC_APP2\bin\KC_APP2.dll.config
 E:\KC_API\KC_APP2\bin\KC_APP2.dll
 E:\KC_API\KC_APP2\bin\KC_APP2.pdb
@@ -96,6 +97,7 @@ E:\KC_API\KC_APP2\bin\Antlr3.Runtime.dll
 E:\KC_API\KC_APP2\bin\EF_CONFIG.dll
 E:\KC_API\KC_APP2\bin\EntityFramework.dll
 E:\KC_API\KC_APP2\bin\EntityFramework.SqlServer.dll
+E:\KC_API\KC_APP2\bin\EPPlus.dll
 E:\KC_API\KC_APP2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\KC_API\KC_APP2\bin\Microsoft.Web.Infrastructure.dll
 E:\KC_API\KC_APP2\bin\Newtonsoft.Json.dll
@@ -112,8 +114,8 @@ E:\KC_API\KC_APP2\bin\System.Web.WebPages.Razor.dll
 E:\KC_API\KC_APP2\bin\WebGrease.dll
 E:\KC_API\KC_APP2\bin\EF_CONFIG.pdb
 E:\KC_API\KC_APP2\bin\EF_CONFIG.dll.config
-E:\KC_API\KC_APP2\bin\EntityFramework.xml
 E:\KC_API\KC_APP2\bin\EntityFramework.SqlServer.xml
+E:\KC_API\KC_APP2\bin\EPPlus.xml
 E:\KC_API\KC_APP2\bin\Newtonsoft.Json.xml
 E:\KC_API\KC_APP2\bin\System.Net.Http.Formatting.xml
 E:\KC_API\KC_APP2\bin\System.Web.Helpers.xml
@@ -131,5 +133,3 @@ E:\KC_API\KC_APP2\obj\Debug\KC_APP2.csprojAssemblyReference.cache
 E:\KC_API\KC_APP2\obj\Debug\KC_APP2.csproj.CopyComplete
 E:\KC_API\KC_APP2\obj\Debug\KC_APP2.dll
 E:\KC_API\KC_APP2\obj\Debug\KC_APP2.pdb
-E:\KC_API\KC_APP2\bin\EPPlus.dll
-E:\KC_API\KC_APP2\bin\EPPlus.xml

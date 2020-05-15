@@ -7,6 +7,7 @@ namespace KC_APP2.Services
 {
     public class LocalPostData
     {
+        public int PostId { get; set; }
         public int KC_DeviceId { get; set; }
         public string EOP { get; set; }
         public List<Machine> Machines { get; set; }

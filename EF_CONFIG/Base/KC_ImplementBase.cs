@@ -226,6 +226,22 @@ namespace EF_CONFIG.Base
             }
         }
 
+        public KC_PostRecord Get_KC_LastPostRecord(KC_Device KC_Device)
+        {
+            try
+            {
+                return DataContext.KC_PostRecord
+                    .Where(i => i.KC_DeviceId == KC_Device.Id)
+                    .OrderByDescending(i => i.Id)
+                    .First();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                return null;
+            }
+        }
+
         public List<KnifeCaptureTracking> Get_KnifeCaptureTrackings(KC_Device KC_Device)
         {
             try
@@ -288,9 +304,74 @@ namespace EF_CONFIG.Base
 
                 foreach (var item in knifeCaptures)
                 {
-                    if(item.UpdateTime.DayOfWeek >= FirstDateOfWeek.DayOfWeek)
+                    int sub_days = item.UpdateTime.DayOfYear - FirstDateOfWeek.DayOfYear;
+                    if (item.UpdateTime.Year == FirstDateOfWeek.Year)
                     {
-                        result.Add(item);
+                        sub_days = item.UpdateTime.DayOfYear - FirstDateOfWeek.DayOfYear;
+                        if (item.UpdateTime.DayOfWeek >= FirstDateOfWeek.DayOfWeek && sub_days >= 0 && sub_days <= 7)
+                        {
+                            result.Add(item);
+                        }
+                    }
+                    else
+                    {
+                        if (item.UpdateTime.Year - FirstDateOfWeek.Year == 1)
+                        {
+                            sub_days = Math.Abs(sub_days);
+                            DateTime endofyear = new DateTime(FirstDateOfWeek.Year, FirstDateOfWeek.Month, 31);
+                            if (item.UpdateTime.DayOfWeek >= FirstDateOfWeek.DayOfWeek && sub_days >= 0 && sub_days <= 7)
+                            {
+                                result.Add(item);
+                            }
+                        }
+                    }
+                }
+
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                return null;
+            }
+        }
+
+        public List<KnifeCaptureTracking> Get_KnifeCaptureTrackingsOnWeek(AutoCutMachine AutoCutMachine, DateTime DateofWeek)
+        {
+            try
+            {
+                var knifeCaptures = Get_KnifeCaptureTrackings(AutoCutMachine);
+
+                if (knifeCaptures == null)
+                    return null;
+
+                string current_date = DateofWeek.ToString("dd/MM/yyyy");
+
+                DateTime FirstDateOfWeek = SysExtends.FirstDayOfWeek(DateofWeek);
+                var result = new List<KnifeCaptureTracking>();
+
+                foreach (var item in knifeCaptures)
+                {
+                    int sub_days = item.UpdateTime.DayOfYear - FirstDateOfWeek.DayOfYear;
+                    if (item.UpdateTime.Year == FirstDateOfWeek.Year)
+                    {
+                        sub_days = item.UpdateTime.DayOfYear - FirstDateOfWeek.DayOfYear;
+                        if (item.UpdateTime.DayOfWeek >= FirstDateOfWeek.DayOfWeek && sub_days >= 0 && sub_days <= 7)
+                        {
+                            result.Add(item);
+                        }
+                    }
+                    else
+                    {
+                        if (item.UpdateTime.Year - FirstDateOfWeek.Year == 1)
+                        {
+                            sub_days = Math.Abs(sub_days);
+                            DateTime endofyear = new DateTime(FirstDateOfWeek.Year, FirstDateOfWeek.Month, 31);
+                            if (item.UpdateTime.DayOfWeek >= FirstDateOfWeek.DayOfWeek && sub_days >= 0 && sub_days <= 7)
+                            {
+                                result.Add(item);
+                            }
+                        }
                     }
                 }
 
@@ -323,7 +404,7 @@ namespace EF_CONFIG.Base
             }
         }
 
-        
+
 
     }
 }

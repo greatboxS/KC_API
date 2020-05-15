@@ -16,7 +16,7 @@ namespace MachineTracking
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TrackingForm());
+            Application.Run(new KnifeCaptureForm());
         }
     }
 }

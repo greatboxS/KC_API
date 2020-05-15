@@ -21,5 +21,6 @@ namespace EF_CONFIG.Models
         public virtual Building Building { get; set; }
         public virtual List<KnifeCaptureTracking> KnifeCaptureTrackings { get; set; }
         public virtual List<MachineMaintenance> MachineMaintenances { get; set; }
+        public virtual List<KC_MachineInitialize> KC_MachineInitializes { get; set; }
     }
 }

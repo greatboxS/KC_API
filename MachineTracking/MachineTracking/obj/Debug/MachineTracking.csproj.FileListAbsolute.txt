@@ -72,10 +72,11 @@ E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.TrackingForm
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentEditor.resources
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.ComponentProperties.resources
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KC_MachineDetail.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KC_MachineViewer.resources
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KnifeCpatureDevice.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.MachineDetailForm.resources
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.GenerateResource.cache
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.csproj.CopyComplete
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.exe
 E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.pdb
-E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.KC_MachineViewer.resources
-E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.Views.MachineDetailForm.resources
+E:\KC_API\MachineTracking\MachineTracking\obj\Debug\MachineTracking.KnifeCaptureForm.resources

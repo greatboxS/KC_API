@@ -13,6 +13,8 @@ namespace KC_API.Controllers
     public class KnifeCaptureController : ApiController
     {
         private readonly DataContext _context;
+        private int capture_post_id, circle_post_id, initial_post_id;
+       
         public KnifeCaptureController()
         {
             _context = new DataContext();
@@ -22,7 +24,16 @@ namespace KC_API.Controllers
         [Route("kc_api/post")]
         public IHttpActionResult KC_DevicePost([FromBody] LocalPostData LocalPostData)
         {
-            return Json(new DevicePostResp(_context, LocalPostData));
+            DevicePostResp Resp = new DevicePostResp();
+
+            // ignord the same post data
+            if (circle_post_id != LocalPostData.PostId)
+            {
+                circle_post_id = LocalPostData.PostId;
+                Resp = new DevicePostResp(_context, LocalPostData);
+            }
+
+            return Json(Resp);
         }
 
         [HttpGet]
@@ -33,10 +44,15 @@ namespace KC_API.Controllers
         }
 
         [HttpGet]
-        [Route("kc_api/initial/{machines}")]
-        public IHttpActionResult KnifeCaptureGetInitials( string machines)
+        [Route("kc_api/initial/{post_id}/{machines}")]
+        public IHttpActionResult KnifeCaptureGetInitials(int post_id, string machines)
         {
-            KC_Resp Resp = new KC_Resp(_context, machines);
+            KC_Resp Resp = new KC_Resp();
+            if (initial_post_id != post_id)
+            {
+                initial_post_id = post_id;
+                Resp = new KC_Resp(_context, machines);
+            }
             return Json(Resp);
         }
 
@@ -46,6 +62,21 @@ namespace KC_API.Controllers
         {
             KC_Resp Resp = new KC_Resp(_context, deviceId, machine_name, knife_pos, knife_type, knife_picked, local_value);
             //return Ok(Resp);
+            return Json(Resp);
+        }
+
+        [HttpPost]
+        [Route("kc_api/capture")]
+        public IHttpActionResult SubmitKnifeCapture([FromBody]CaptureProps CaptureProps)
+        {
+            KC_Resp Resp = new KC_Resp();
+
+            // ignord the same post data
+            if (capture_post_id != CaptureProps.PostId) {
+                capture_post_id = CaptureProps.PostId;
+                Resp = new KC_Resp(_context, CaptureProps);
+            }
+
             return Json(Resp);
         }
     }

@@ -30,7 +30,7 @@ namespace EF_CONFIG.Data
         public DbSet<ComponentImage> ComponentImage { get; set; }
         public DbSet<KC_DisMachine> KC_DisMachine { get; set; }
         public DbSet<KC_PostRecord> KC_PostRecord { get; set; }
-
+        public DbSet<KC_MachineInitialize> KC_MachineInitialize { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -73,6 +73,11 @@ namespace EF_CONFIG.Data
                 .HasMany(i => i.KC_DisMachines)
                 .WithOptional(i => i.KC_PostRecord)
                 .HasForeignKey(k => k.KC_PostRecordId);
+
+            modelBuilder.Entity<KC_MachineInitialize>()
+                .HasOptional(i => i.AutoCutMachine)
+                .WithMany(i => i.KC_MachineInitializes)
+                .HasForeignKey(k => k.AutoCutMachineId);
 
 
             ///////////////////////////////////////////////

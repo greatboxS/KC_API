@@ -19,4 +19,6 @@ namespace EF_CONFIG.Models
         public virtual List<KnifeCaptureTracking> KnifeCaptureTrackings { get; set; }
         public virtual List<KC_DisMachine> KC_DisMachines { get; set; }
     }
+
+
 }
